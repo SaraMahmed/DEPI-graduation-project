@@ -1,3 +1,7 @@
+![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-blue)
+![FortiGate](https://img.shields.io/badge/FortiGate-NGFW-red)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-green)
+![NIST](https://img.shields.io/badge/NIST-SP800--61-orange)
 # End-to-End SOC Investigation & Incident Response Lab
 ### NIST SP 800-61 & MITRE ATT&CK Mapping
 
@@ -86,8 +90,11 @@ This repository includes detailed **NIST-aligned playbooks** developed during th
 
 ##  Repository Structure
 ```
-├── assets/                 # Architecture diagrams and Wazuh dashboard screenshots
-├── documentation/          # Full Technical Project Documentation (PDF)
-├── playbooks/              # NIST-mapped IR Playbooks
-├── scripts/                # Custom detection rules and hardening scripts
+
+├── assets/                 # Architecture diagrams and screenshots
+├── playbooks/              # NIST-mapped incident response playbooks
+├── scripts/                # Detection and hardening scripts
+├── attack_simulation.md    # Adversary emulation and attack commands
+├── setup.md                # VMware, Wazuh, and FortiGate setup guide
+├── documentation.pdf       # Full SOC investigation and IR report
 └── README.md
