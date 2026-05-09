@@ -48,10 +48,12 @@ The lab simulates a multi-stage attack chain including reconnaissance, brute-for
 
 ### Attack Flow Diagram (Kill Chain)
 ![Attack Kill Chain](./assets/attack-kill-chain.png)
+
 *Visualization of the attack path from external reconnaissance to lateral movement.*
 
 ### Attack Timeline Visualization
 ![Attack Timeline](./assets/attack-timeline.png)
+
 *A chronological mapping of attacker actions vs. SIEM detection alerts.*
 
 ---
